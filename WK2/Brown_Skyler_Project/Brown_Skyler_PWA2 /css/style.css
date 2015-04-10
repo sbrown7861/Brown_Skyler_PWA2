@@ -1,0 +1,181 @@
+/*Main Body Background color*/
+body{
+    background-color: #333333;
+    width: 100%;
+    height: 100%;
+    color: #333333;
+    margin: 0 auto;
+    padding: 2%;
+    border: 10px;
+
+
+}
+
+
+/*H1 styling with google fonts*/
+h1 {
+    color: #490201;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 2.5em;
+    line-height: 1;
+    text-shadow: 2px 2px #000000;
+
+}
+
+
+
+/*main body text styling*/
+
+p{
+    font-size:1em;
+    color: #ffffff;
+
+}
+
+
+/*Link styling*/
+
+li {
+
+    font-family: monospace;
+    list-style:none;
+    padding: 0.465%;
+    font-weight: 600;
+    font-size: 1.5em;
+    font-style: oblique;
+    display: inline;
+
+}
+
+/* unvisited link */
+a:link {
+    color: #3CAEE0;
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: #000;
+    text-decoration: underline;
+}
+
+/* mouse over link */
+a:hover {
+    color: #E01E18;
+    text-decoration: underline;
+}
+
+/* selected link */
+a:active {
+    color: #490201;
+    text-decoration: none;
+}
+
+/*Form Styling*/
+
+form{
+    width: 30%;
+    color: #333333;
+    background-color:rgba(190, 189, 195, .25) ;
+
+
+}
+
+form :hover{
+    color: #490201;
+
+}
+
+form :focus{
+    background-color:#333333 ;
+}
+
+/*CSS animations for form aspects*/
+
+input[type=text]{
+    color: #fff;
+    border: 0;
+    border-radius: 5px;
+    font-family:"Helvetica Neue", Helvetica, sans-serif;
+
+
+    -webkit-transition:all 1s ease.5s;
+
+    -moz-transition:all 1s ease.5s;
+
+    -o-transition:all 1s ease.5s;
+
+    transition: all 1s ease.5s;
+}
+
+
+input[type=text]:focus{
+
+    background-color: #490201;
+    box-shadow: 0 0 5px rgba(148, 21, 21, 1);
+    border: 1px solid rgba(148, 21, 21, 1);
+
+}
+
+
+input[type=submit] {
+    border: 0;
+    border-radius: 5px;
+    font-family:"Helvetica Neue", Helvetica, sans-serif;
+    color: #000;
+
+    -webkit-transition:all 1s ease.5s;
+
+    -moz-transition:all 1s ease.5s;
+
+    -o-transition:all 1s ease.5s;
+
+    transition: all 1s ease.5s;
+
+
+    -moz-perspective: 100px;
+
+    -webkit-perspective: 100px;
+
+    -o-perspective:100px;
+
+    perspective: 100px;
+
+
+}
+
+
+
+
+input[type=submit]:hover {
+
+
+    color: #490201;
+
+
+
+
+
+
+}
+
+
+
+label{
+    color: #ffffff;
+}
+
+/*End form styles*/
+
+
+/*Sub header styling*/
+
+h2{
+    color: #941515;
+    text-shadow: 1px 1px #000000;
+
+}
+
+
+
+
