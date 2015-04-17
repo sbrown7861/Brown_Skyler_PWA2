@@ -31,15 +31,6 @@
 <body>
 
 
-	
-	<!-- jquery -->
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-	<!-- plugins -->
-
-	
-	<!-- main -->
-	<script type="text/javascript" src="js/main.js"></script>
-
 	<!-- Header -->
 
 <div id="header">
@@ -61,38 +52,71 @@
 
 <h2>Sign in or create an account.</h2>
 
-	<form action="registration_page.html">
+	<form action="registration_page.html" class="tooltip">
 		<input type="submit" value="Register here">
 	</form>
 
 <p>Or sign in below</p>
 
 	<!--Name in Form-->
-	<form>
-		<div>
-			<label for="name">First name:</label>
-			<input type="text" name="firstName"
-				   id="name">
+
+		<div id="login">
+
+			<form id="loginForm">
+
+			<label>First name: </label>
+			<input name="signinButton" type="text"
+				   id="name" class="masterTooltip"
+					title="Enter your First Name" required=""/>
 
 			<br>
 			<br>
 
 
-			<label for="lastname">Last Name:</label>
+			<label>Last Name:</label>
 			<input type="text" name="lastname"
-				   id="lastname">
+				   id="lastname" class="masterTooltip"
+					title="Enter your last name">
+
+				<br>
+				<br>
 
 
+				<form action="dashboard.html">
+					<input type="submit" value="Submit" class="masterTooltip" title="Click here to submit!">
+				</form>
+
+			</form>
 
 		</div>
-	</form>
-		<form action="dashboard.html">
-			<input type="submit" value="Submit">
-		</form>
+
 
 </div>
 
 		<!--End Name in Form-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<!-- jquery -->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<!-- plugins -->
+
+
+	<!-- main -->
+	<script type="text/javascript" src="js/main.js"></script>
+
+
 
 </body>
 

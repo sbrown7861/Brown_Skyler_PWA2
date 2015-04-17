@@ -12,6 +12,8 @@ body{
 }
 
 
+
+
 /*H1 styling with google fonts*/
 h1 {
     color: #490201;
@@ -21,6 +23,8 @@ h1 {
     text-shadow: 2px 2px #000000;
 
 }
+
+
 
 
 
@@ -46,6 +50,7 @@ li {
     display: inline;
 
 }
+
 
 /* unvisited link */
 a:link {
@@ -146,7 +151,7 @@ input[type=submit] {
 
 
 
-
+/*
 input[type=submit]:hover {
 
 
@@ -158,6 +163,7 @@ input[type=submit]:hover {
 
 
 }
+*/
 
 
 
@@ -176,6 +182,93 @@ h2{
 
 }
 
+
+/*Tool tip styles*/
+
+
+.tooltip{
+    display: none;
+    position: absolute;
+    border: 1px solid #333;
+    background-color: #000000;
+    border-radius: 5px;
+    padding: 10px;
+    color: #fff;
+    font-size: 12px;
+}
+
+
+
+
+/*Tabs styles*/
+
+#tabs{
+    background-color: #999;
+    width: 600px;
+    height: 150px;
+    padding: 20px;
+
+
+
+}
+
+
+/*Nav Styling*/
+
+
+#nav{
+    width: 600px;
+    height: 75px;
+    padding: 20px;
+    background-color: #999;
+    text-decoration: none;
+    list-style-type: none;
+    display: inline-block;
+
+}
+
+#nav li {
+    display: inline-block;
+    padding: 20px;
+
+
+}
+
+#overlay{
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    display: none;
+
+}
+
+
+#modal{
+    width: 350px;
+    background: #cccccc;
+    box-shadow: 0 0 10px #000;
+    border-radius: 10px;
+    position: relative;
+    top: 50%;
+    left:50%;
+    overflow: hidden;
+    margin-top: -200px;
+    margin-left: -200px;
+    z-index: 1001;
+    display: none;
+}
+
+
+
+#loginForm{
+
+   padding: 10px;
+
+}
 
 
 
