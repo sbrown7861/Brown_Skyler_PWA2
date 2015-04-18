@@ -1,17 +1,17 @@
 /*Main Body Background color*/
+
+
 body{
-    background-color: #333333;
+    background: #333 url("../images/logo.png") no-repeat fixed right;
     width: 100%;
     height: 100%;
-    color: #333333;
+    color: #333;
     margin: 0 auto;
     padding: 2%;
     border: 10px;
 
 
 }
-
-
 
 
 /*H1 styling with google fonts*/
@@ -35,7 +35,7 @@ p{
     color: #ffffff;
 
 }
-
+/*
 
 /*Link styling*/
 
@@ -78,26 +78,12 @@ a:active {
 
 /*Form Styling*/
 
-form{
-    width: 30%;
-    color: #333333;
-    background-color:rgba(190, 189, 195, .25) ;
 
-
-}
-
-form :hover{
-    color: #490201;
-
-}
-
-form :focus{
-    background-color:#333333 ;
-}
 
 /*CSS animations for form aspects*/
 
 input[type=text]{
+    background-color: #000000;
     color: #fff;
     border: 0;
     border-radius: 5px;
@@ -151,7 +137,7 @@ input[type=submit] {
 
 
 
-/*
+
 input[type=submit]:hover {
 
 
@@ -163,7 +149,7 @@ input[type=submit]:hover {
 
 
 }
-*/
+
 
 
 
@@ -171,7 +157,6 @@ label{
     color: #ffffff;
 }
 
-/*End form styles*/
 
 
 /*Sub header styling*/
@@ -204,6 +189,7 @@ h2{
 
 #tabs{
     background-color: #999;
+    opacity: .8;
     width: 600px;
     height: 150px;
     padding: 20px;
@@ -221,6 +207,7 @@ h2{
     height: 75px;
     padding: 20px;
     background-color: #999;
+    opacity: .8;
     text-decoration: none;
     list-style-type: none;
     display: inline-block;
@@ -233,6 +220,9 @@ h2{
 
 
 }
+
+
+/*Modal Styling*/
 
 #overlay{
     width: 100%;
@@ -263,12 +253,45 @@ h2{
 }
 
 
+/*Styles for status change in modal*/
+
+.mystatus > input[type=radio]{
+    display: none;
+}
+
+input[type=radio] + img{
+
+    cursor: pointer;
+    border: 2px solid transparent;
+}
+
+
+input[type=radio]:checked + img{
+    border:2px solid  #490201;
+}
+
+
 
 #loginForm{
 
-   padding: 10px;
+    padding: 10px;
 
 }
+
+
+.userid{
+    width: 100px;
+    float: left;
+}
+
+.logoutbox{
+    width: 400px;
+    float: right;
+}
+
+
+
+
 
 
 

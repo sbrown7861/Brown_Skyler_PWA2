@@ -8,23 +8,35 @@
     <link rel="stylesheet" href="css/style.css" type="text/css">
     <!-- end CSS-->
 
+
+
 </head>
 <body>
 
+
+<!--Welcome user message-->
+
+
 <header>
 
-    <div class="userid">Welcome User
+    <div class="userid"><p>Welcome User:</p>
     </div>
 
+
+    <!--Log out box-->
+
     <div class="logoutbox">
-        <button class="dashboard">Dashboard</button>
-        <input name="logOut" type="button" id="logOut">
+        <form action="index.html">
+            <input type="submit" value="Dashboard" class="masterTooltip" title="Click here to go to the dashboard!">
+        </form>
     </div>
 
 </header>
 
 <br>
 <br>
+
+<!--Modal code-->
 
 <div class="welcome">
     <p><a href="#" class="modalClick">Add +</a>
@@ -68,22 +80,22 @@
 
                 <label class="mystatus">
                     <input type="radio" name="status" id="urgent">
-                    <img src="..." width="69" height="75">
+                    <img src="images/urgent.png" width="69" height="75">
                 </label>
 
                 <label class="mystatus">
                     <input type="radio" name="status" id="normal">
-                    <img src="..." width="69" height="75">
+                    <img src="images/OK.png" width="69" height="75">
                 </label>
 
                 <label class="mystatus">
                     <input type="radio" name="status" id="delayed">
-                    <img src="..." width="69" height="75">
+                    <img src="images/delayed.png" width="69" height="75">
                 </label>
 
                 <label class="mystatus">
                     <input type="radio" name="status" id="complete">
-                    <img src="..." width="69" height="75">
+                    <img src="images/complete.png" width="69" height="75">
                 </label>
 
                 <br>
@@ -96,7 +108,7 @@
 </div>
 
 <!-- jquery -->
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 <!-- plugins -->
 
 

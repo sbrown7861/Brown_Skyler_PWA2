@@ -11,6 +11,9 @@
 </head>
 <body>
 
+
+<!--Dashboard welcome and cta-->
+
 <h1>Welcome!</h1>
 
 <p>This is the dashboard for the project management application
@@ -19,6 +22,8 @@
 <br>
 <br>
 
+
+<!--Tabs-->
 
 <div>
     <ul id="nav">
@@ -36,25 +41,63 @@
 
     </ul>
 
+
+
+    <!--Tabs description-->
+
     <div id="tabs">
         <p id="projects">
-            This is the first tab that will host "projects"
+            Here is the tab for all of your projects.
+
+            <br>
+            <br>
+                Go to my projects <button class="projectsbtn">Projects</button>
+
         </p>
 
         <p id="tasks">
-            This is the second tab that will host "tasks"
-        </p>
+            Here is the tab for tasks that are waiting to be completed.
+
+            <br>
+            <br>
+
+            Go to my task <button class="taskssbtn">Tasks</button>
+
+      </p>
+
+
 
         <p id="users">
-            This is the third tab that will host "users"
-        </p>
+            Here are the users.
+
+            <br>
+            <br>
+            Go to my users <button class="usersbtn">Users</button>
+</p>
+
+
 
     </div>
 
 </div>
 
+<br>
+<br>
+
+
+
+<!--Sign out button-->
+
+
+
+<div id="signOut">
+    <form action="">
+        <input type="button" value="Log out" class="masterTooltip" title="Click here to log out">
+    </form>
+</div>
+
 <!-- jquery -->
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 <!-- plugins -->
 
 
@@ -65,3 +108,5 @@
 
 </body>
 </html>
+
+
