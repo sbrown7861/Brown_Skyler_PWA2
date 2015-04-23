@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Projects Page</title>
+
+    <!-- CSS concatenated and minified via ant build script-->
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <!-- end CSS-->
+
+
+
+</head>
+<body>
+
+
+<!--Welcome user message-->
+
+
+<header>
+
+    <div class="userid"><p>Welcome User:</p>
+    </div>
+
+
+    <!--Log out box-->
+
+    <div class="logoutbox">
+        <form action="index.html">
+            <input type="submit" value="Dashboard" class="masterTooltip" title="Click here to go to the dashboard!">
+        </form>
+    </div>
+
+</header>
+
+<br>
+<br>
+
+<!--Modal code-->
+
+<div class="welcome">
+    <p><a href="#" class="modalClick">Add +</a>
+        </p>
+</div>
+
+<div id="projectlist">
+    <h1>Current Projects</h1>
+
+    <div class="projects">
+
+    </div>
+
+</div>
+
+
+<div id="overlay">
+    <div id="modal">
+        <span class="close">X</span>
+        <h3 class="header">Add Project</h3>
+        <div id="add">
+            <form id="addForm">
+                <label>Project Name: </label>
+                <input name="projectName" type="text" id="projectName"/>
+
+                <br>
+
+                <label>Project Description: </label>
+                <input name="projectDescription" type="text" id="projectDescription"/>
+
+                <br>
+
+                <label>Project Due Date: </label>
+                <input name="projectDueDate" type="text" id="projectDueDate"/>
+
+                <br>
+
+                <label for="status">Select Status:</label>
+                <br>
+
+
+                <label class="mystatus">
+                    <input type="radio" name="status" id="urgent">
+                    <img src="images/urgent.png" width="69" height="75">
+                </label>
+
+                <label class="mystatus">
+                    <input type="radio" name="status" id="normal">
+                    <img src="images/OK.png" width="69" height="75">
+                </label>
+
+                <label class="mystatus">
+                    <input type="radio" name="status" id="delayed">
+                    <img src="images/delayed.png" width="69" height="75">
+                </label>
+
+                <label class="mystatus">
+                    <input type="radio" name="status" id="complete">
+                    <img src="images/complete.png" width="69" height="75">
+                </label>
+
+                <br>
+
+                <input name="addButton" type="button" id="addButton" value="add">
+
+            </form>
+        </div>
+    </div>
+</div>
+
+<!-- jquery -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<!-- plugins -->
+
+
+<!-- main -->
+<script type="text/javascript" src="js/main.js"></script>
+
+
+</body>
+
+

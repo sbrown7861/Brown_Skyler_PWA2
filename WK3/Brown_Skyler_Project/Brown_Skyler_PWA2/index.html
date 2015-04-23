@@ -1,0 +1,147 @@
+<!doctype html>  
+
+<!--
+	This is the main index of the application
+	
+	All your script tags should be at the bottom of this file
+	
+	The only html element in the body is the container div
+	Your code should load your page templates into the container
+-->
+
+<html lang="en">
+<head>
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	
+	<title>Project Monster</title>
+	<meta name="description" content="Project Management Application ">
+	<meta name="author" content="Skyler">
+	
+	<!--  Mobile viewport optimized: j.mp/bplateviewport -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<!-- CSS concatenated and minified via ant build script-->
+	<link rel="stylesheet" href="css/style.css?v=1">
+	<!-- end CSS-->
+	
+</head>
+
+<body>
+
+
+	<!-- Header -->
+
+<div id="header">
+	<h1>Welcome to Project Monster</h1>
+</div>
+
+
+	<!-- mission statement -->
+
+<div id="mission_statement">
+	<p>Here at Project Monster we believe that managing a project should be simple and intuitive
+	so that is why we created this application.</p>
+</div>
+	
+	
+
+
+
+	<!-- Sign in -->
+
+<div id="sign_in">
+
+<h2>Sign in or create an account.</h2>
+
+	<form action="registration_page.html">
+		<input type="submit" value="Register here" class="masterTooltip" title="New users click here to register!">
+	</form>
+
+<p>Or sign in below</p>
+
+	<!--Name in Form-->
+
+		<div id="login">
+
+			<form id="loginForm">
+
+			<label>First name: </label>
+			<input name="signinButton" type="text"
+				   id="name" class="masterTooltip"
+					title="Enter your First Name" required=""/>
+
+			<br>
+			<br>
+
+
+			<label>Last Name:</label>
+			<input type="text" name="lastname"
+				   id="lastname" class="masterTooltip"
+					title="Enter your last name">
+
+				<br>
+				<br>
+
+
+
+
+			</form>
+
+		</div>
+
+
+
+</div>
+
+
+	<!--Dashboard submit button and link-->
+
+	<div id="dashboardSubmit">
+
+	<form action="dashboard.html">
+		<input type="submit" value="Submit" class="masterTooltip" title="Click here to submit!">
+	</form>
+
+	</div>
+
+		<!--End Name in Form-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<!-- jquery -->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	<!-- plugins -->
+
+
+	<!-- main -->
+	<script type="text/javascript" src="js/main.js"></script>
+
+
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+

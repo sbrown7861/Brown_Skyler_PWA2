@@ -1,0 +1,297 @@
+/*Main Body Background color*/
+
+
+body{
+    background: #333 url("../images/logo.png") no-repeat fixed right;
+    width: 100%;
+    height: 100%;
+    color: #333;
+    margin: 0 auto;
+    padding: 2%;
+    border: 10px;
+
+
+}
+
+
+/*H1 styling with google fonts*/
+h1 {
+    color: #490201;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 2.5em;
+    line-height: 1;
+    text-shadow: 2px 2px #000000;
+
+}
+
+
+
+
+
+/*main body text styling*/
+
+p{
+    font-size:1em;
+    color: #ffffff;
+
+}
+/*
+
+/*Link styling*/
+
+li {
+
+    font-family: monospace;
+    list-style:none;
+    padding: 0.465%;
+    font-weight: 600;
+    font-size: 1.5em;
+    font-style: oblique;
+    display: inline;
+
+}
+
+
+/* unvisited link */
+a:link {
+    color: #3CAEE0;
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: #000;
+    text-decoration: underline;
+}
+
+/* mouse over link */
+a:hover {
+    color: #E01E18;
+    text-decoration: underline;
+}
+
+/* selected link */
+a:active {
+    color: #490201;
+    text-decoration: none;
+}
+
+/*Form Styling*/
+
+
+
+/*CSS animations for form aspects*/
+
+input[type=text]{
+    background-color: #000000;
+    color: #fff;
+    border: 0;
+    border-radius: 5px;
+    font-family:"Helvetica Neue", Helvetica, sans-serif;
+
+
+    -webkit-transition:all 1s ease.5s;
+
+    -moz-transition:all 1s ease.5s;
+
+    -o-transition:all 1s ease.5s;
+
+    transition: all 1s ease.5s;
+}
+
+
+input[type=text]:focus{
+
+    background-color: #490201;
+    box-shadow: 0 0 5px rgba(148, 21, 21, 1);
+    border: 1px solid rgba(148, 21, 21, 1);
+
+}
+
+
+input[type=submit] {
+    border: 0;
+    border-radius: 5px;
+    font-family:"Helvetica Neue", Helvetica, sans-serif;
+    color: #000;
+
+    -webkit-transition:all 1s ease.5s;
+
+    -moz-transition:all 1s ease.5s;
+
+    -o-transition:all 1s ease.5s;
+
+    transition: all 1s ease.5s;
+
+
+    -moz-perspective: 100px;
+
+    -webkit-perspective: 100px;
+
+    -o-perspective:100px;
+
+    perspective: 100px;
+
+
+}
+
+
+
+
+input[type=submit]:hover {
+
+
+    color: #490201;
+
+
+
+
+
+
+}
+
+
+
+
+label{
+    color: #ffffff;
+}
+
+
+
+/*Sub header styling*/
+
+h2{
+    color: #941515;
+    text-shadow: 1px 1px #000000;
+
+}
+
+
+/*Tool tip styles*/
+
+
+.tooltip{
+    display: none;
+    position: absolute;
+    border: 1px solid #333;
+    background-color: #000000;
+    border-radius: 5px;
+    padding: 10px;
+    color: #fff;
+    font-size: 12px;
+}
+
+
+
+
+/*Tabs styles*/
+
+#tabs{
+    background-color: #999;
+    opacity: .8;
+    width: 600px;
+    height: 150px;
+    padding: 20px;
+
+
+
+}
+
+
+/*Nav Styling*/
+
+
+#nav{
+    width: 600px;
+    height: 75px;
+    padding: 20px;
+    background-color: #999;
+    opacity: .8;
+    text-decoration: none;
+    list-style-type: none;
+    display: inline-block;
+
+}
+
+#nav li {
+    display: inline-block;
+    padding: 20px;
+
+
+}
+
+
+/*Modal Styling*/
+
+#overlay{
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    display: none;
+
+}
+
+
+#modal{
+    width: 350px;
+    background: #cccccc;
+    box-shadow: 0 0 10px #000;
+    border-radius: 10px;
+    position: relative;
+    top: 50%;
+    left:50%;
+    overflow: hidden;
+    margin-top: -200px;
+    margin-left: -200px;
+    z-index: 1001;
+    display: none;
+}
+
+
+/*Styles for status change in modal*/
+
+.mystatus > input[type=radio]{
+    display: none;
+}
+
+input[type=radio] + img{
+
+    cursor: pointer;
+    border: 2px solid transparent;
+}
+
+
+input[type=radio]:checked + img{
+    border:2px solid  #490201;
+}
+
+
+
+#loginForm{
+
+    padding: 10px;
+
+}
+
+
+.userid{
+    width: 100px;
+    float: left;
+}
+
+.logoutbox{
+    width: 400px;
+    float: right;
+}
+
+
+
+
+
+
+

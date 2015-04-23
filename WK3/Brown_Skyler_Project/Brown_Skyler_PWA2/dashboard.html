@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Dashboard</title>
+
+    <!-- CSS concatenated and minified via ant build script-->
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <!-- end CSS-->
+
+</head>
+<body>
+
+
+<!--Dashboard welcome and cta-->
+
+<h1>Welcome!</h1>
+
+<p>This is the dashboard for the project management application
+    please choose an option below to continue.</p>
+
+<br>
+<br>
+
+
+<!--Tabs-->
+
+<div>
+    <ul id="nav">
+        <li> <a href="#projects">
+            <p>Projects</p>
+        </a> </li>
+
+        <li> <a href="#tasks">
+            <p>Tasks</p>
+        </a> </li>
+
+        <li> <a href="#users">
+            <p>Users</p>
+        </a> </li>
+
+    </ul>
+
+
+
+    <!--Tabs description-->
+
+    <div id="tabs">
+        <p id="projects">
+            Here is the tab for all of your projects.
+
+            <br>
+            <br>
+                Go to my projects <button class="projectsbtn">Projects</button>
+
+        </p>
+
+        <p id="tasks">
+            Here is the tab for tasks that are waiting to be completed.
+
+            <br>
+            <br>
+
+            Go to my task <button class="taskssbtn">Tasks</button>
+
+      </p>
+
+
+
+        <p id="users">
+            Here are the users.
+
+            <br>
+            <br>
+            Go to my users <button class="usersbtn">Users</button>
+</p>
+
+
+
+    </div>
+
+</div>
+
+<br>
+<br>
+
+
+
+<!--Sign out button-->
+
+
+
+<div id="signOut">
+    <form action="">
+        <input type="button" value="Log out" class="masterTooltip" title="Click here to log out">
+    </form>
+</div>
+
+<!-- jquery -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<!-- plugins -->
+
+
+<!-- main -->
+<script type="text/javascript" src="js/main.js"></script>
+
+
+
+</body>
+</html>
+
+
