@@ -108,7 +108,7 @@ $(document).ready(function($){
 		dataType: "jsonp",
 		success: function (parsed_json) {
 			var location = parsed_json['location']['city'];
-			var forecast = parsed_json['forecast'];
+			var forecast = parsed_json['forecast']['txt_forecast']['date'];
 			$(".three").html("Current forecast in " + location + " is: " + forecast+ '');
 		}
 
@@ -125,7 +125,7 @@ $(document).ready(function($){
 		dataType: "jsonp",
 		success: function (parsed_json) {
 			var location = parsed_json['location']['city'];
-			var forecast10day = parsed_json['forecast10day'];
+			var forecast10day = parsed_json['forecast']['txt_forecast']['date'];
 			$(".tenDay").html("Current forecast in " + location + " is: " + forecast10day+ '');
 		}
 
