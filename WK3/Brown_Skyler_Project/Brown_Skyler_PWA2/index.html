@@ -67,19 +67,19 @@
 
 			<form id="loginForm">
 
-			<label>First name: </label>
+			<label>User Name: </label>
 			<input name="signinButton" type="text"
-				   id="name" class="masterTooltip"
-					title="Enter your First Name" required=""/>
+				   id="user" class="masterTooltip"
+					title="Enter your user name" required=""/>
 
 			<br>
 			<br>
 
 
-			<label>Last Name:</label>
-			<input type="text" name="lastname"
-				   id="lastname" class="masterTooltip"
-					title="Enter your last name">
+			<label>Password:</label>
+			<input type="password" name="password"
+				   id="pass" class="masterTooltip"
+					title="Enter your password">
 
 				<br>
 				<br>
@@ -100,8 +100,8 @@
 
 	<div id="dashboardSubmit">
 
-	<form action="dashboard.html">
-		<input type="submit" value="Submit" class="masterTooltip" title="Click here to submit!">
+	<form>
+		<input id="signinButton" name="signinButton" type="button" value="Sign in" class="masterTooltip" title="Click here to sign in!">
 	</form>
 
 	</div>

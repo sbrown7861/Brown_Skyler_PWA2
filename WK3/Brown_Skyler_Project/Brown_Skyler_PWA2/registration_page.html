@@ -23,9 +23,9 @@
 
 <form>
     <div>
-        <label for="name">First name:</label>
+        <label for="firstname">First name:</label>
         <input type="text" name="firstName" required=""
-               id="name" class="masterTooltip" title="Enter your first name">
+               id="firstname" class="masterTooltip" title="Enter your first name">
 
         <br>
         <br>
@@ -58,8 +58,8 @@
     <h2>Create a Username</h2>
 
     <div>
-        <label for="Username">Username:</label>
-        <input type="text" name="user" id="Username" class="masterTooltip" title="Create a user name">
+        <label for="username">Username:</label>
+        <input type="text" required="" name="user" id="username" class="masterTooltip" title="Create a user name">
 
     </div>
     <br>
@@ -69,7 +69,7 @@
     <h2>Enter your Email</h2>
 
     <div class="masterTooltip" title="Please enter a valid Email.">
-        <label for="Email">Email</label> <input type="text" name="Email" placeholder="Enter Your Email" required="" id="Email">
+        <label for="email">Email</label> <input type="text" name="Email" placeholder="Enter Your Email" required="" id="email">
     </div>
 
     <br>
@@ -137,17 +137,30 @@
 
     </div>
 
+    <br>
+
+
+
+<label for="password">Password</label>
+    <input type="password" required="" name="password"
+           id="password" class="masterTooltip"
+           title="Enter a password">
+
+
+
 
 </form>
+
+<br>
 
 
 <!---New user id for jquery message and projects link button--->
 
 <div id="newUser">
 
-    <form action="projects.html">
-        <input type="submit" value="Submit" class="masterTooltip" title="Click here to submit!">
-    </form>
+
+        <input id="register" type="submit" value="Register" class="masterTooltip" title="Click here to Register!">
+
 
 
     </div>
