@@ -358,7 +358,7 @@ $(".mystatus").mouseover(function(){
 
 						$('.projects').append(
 
-							'<div style= "border: 1px solid black">' +
+							'<div id="sortable" class="ui-state-default">' +
 							"<input class='projectid' type='hidden' value='" + result.id + "'>"+
 
 								"Project Name: " + result.projectName + "<br>" +
@@ -384,14 +384,14 @@ $(".mystatus").mouseover(function(){
 
 
 
-					  $(this).attr(result.id);
+					  var resultId = $(this).parent().find('.projectid').val();
 
 						$.ajax({
 
 							url: 'xhr/delete_project.php',
 							data: {
 
-								projectID: result.id
+								projectID: resultId
 							},
 
 
@@ -428,6 +428,25 @@ $(".mystatus").mouseover(function(){
 
 	projects();
 
+/*Date picker code*/
+
+	$( ".datepicker" ).datepicker();
+
+
+/*sortable code with placeholder for "added plugin" */
+
+	$(function() {
+		$( "#sortable" ).sortable({
+			placeholder: "ui-state-highlight"
+		});
+		$( "#sortable" ).disableSelection();
+	});
+
+
+
+	/*Extra ui plugin*/
+
+	$( "button" ).button();
 
 
 
