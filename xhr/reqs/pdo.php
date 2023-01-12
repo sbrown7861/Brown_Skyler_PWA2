@@ -4,6 +4,7 @@ error_reporting(E_ALL);
 
 class PDB{
 
+	// Example values 	
 	private $dbhost = 'localhost';
 	private $dbport = '8889';
 	private $dbname = 'pwa2_db';
